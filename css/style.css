@@ -1,0 +1,127 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.container{
+     width: 80%;
+     margin: auto;
+}
+
+header{
+     height: 70px;
+     background-color: rgb(75, 177, 180);
+     padding: 10px 0;
+     border-radius:4px;
+}
+
+.header-content{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+}
+
+.header-content .brand{
+     font-size: 40px;
+     text-decoration: none;
+     color: rgb(240, 255, 255);
+
+}
+
+.navigator ul {
+     display: flex;
+     font-size: 20px;
+}
+
+.navigator ul li a{
+     color: rgb(132, 45, 147);
+     text-decoration: none;
+}
+
+.navigator ul li{
+     list-style: none;
+     margin: 0 10px;
+     padding: 0;
+
+
+}
+
+/* 
+.section-form{
+
+
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     display:flex;
+
+} */
+
+
+.section-form {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 30%;
+     height: 70vh;
+     /* background: linear-gradient(135deg, #443058, #2c362d); */
+     font-family: 'Arial', sans-serif;
+     border-radius: 20px;
+}
+
+ /* Form Container */
+form {
+     background: #ffffff;
+     padding: 80px 60px;
+     border-radius: 12px;
+     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+     width: 100%;
+     max-width: 400px;
+     text-align: center;
+}
+ /* Form Heading */
+form h2 {
+     margin-bottom: 15px;
+     font-size: 30px;
+     color: #333;
+}
+
+
+ /* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+     display: block;
+     width: 100%;
+     padding: 15px 20px;
+     margin: 20px 0;
+     font-size: 16px;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     transition: all 0.3s ease;
+     outline: 0;
+}
+
+
+ /* Submit Button */
+input[type="submit"] {
+     display: block;
+     width: 100%;
+     padding: 15px;
+     font-size: 18px;
+     color: #fff;
+     background: linear-gradient(90deg, #364662, #0b702e);
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+

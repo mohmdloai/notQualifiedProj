@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Cart - Coffee Bliss</title>
+<style>
+     body {
+          font-family: Arial, sans-serif;
+          padding: 20px;
+          background-color: #f9f9f9;
+     }
+     .cart-container {
+          max-width: 800px;
+          margin: 0 auto;
+          background: #fff;
+          border: 1px solid #ccc;
+          padding: 20px;
+          border-radius: 8px;
+     }
+     .cart-item {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 15px;
+     }
+     .cart-item img {
+          width: 80px;
+          height: 80px;
+          margin-right: 15px;
+     }
+     .cart-item h3 {
+          margin: 0;
+          font-size: 18px;
+     }
+     .cart-item p {
+          margin: 5px 0;
+     }
+     .cart-item button {
+          background-color: #e74c3c;
+          color: #fff;
+          border: none;
+          padding: 8px 12px;
+          border-radius: 4px;
+          cursor: pointer;
+     }
+     .cart-item button:hover {
+          background-color: #c0392b;
+     }
+     .total {
+          font-size: 18px;
+          font-weight: bold;
+          margin-top: 20px;
+          text-align: right;
+     }
+</style>
+<script src="./js/customer.js" defer></script>
+</head>
+<body>
+<div class="cart-container">
+     <h1>My Cart</h1>
+     <div id="cart-items">
+          <!-- Items will be dynamically added here -->
+     </div>
+     <p class="total">Total: $0.00</p>
+</div>
+</body>
+</html>

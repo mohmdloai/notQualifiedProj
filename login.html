@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Formal Login Form</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+     <style>
+          body {
+               font-family: Arial, sans-serif;
+               background-color: #f4f4f4;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               height: 100vh;
+               margin: 0;
+          }
+          .login-container {
+               width: 100%;
+               max-width: 400px;
+               background: #fff;
+               padding: 20px;
+               border-radius: 8px;
+               box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+               text-align: center;
+          }
+          .login-container h1 {
+               margin-bottom: 20px;
+               font-size: 24px;
+               color: #333;
+          }
+          .login-container img {
+               margin-bottom: 20px;
+               width: 60px;
+          }
+          .input-wrapper {
+               margin-bottom: 15px;
+               text-align: left;
+          }
+          .input-wrapper input {
+               width: 95%;
+               padding: 10px;
+               border: 1px solid #ccc;
+               border-radius: 4px;
+               font-size: 16px;
+          }
+          .input-wrapper input:focus {
+               outline: none;
+               border-color: #007bff;
+          }
+          .login-container button {
+               width: 95%;
+               padding: 10px;
+               background: #ff5900;
+               color: #fff;
+               border: none;
+               border-radius: 4px;
+               font-size: 16px;
+               cursor: pointer;
+          }
+          .login-container button:hover {
+               background: #9d4a1e96;
+          }
+          .message {
+               padding: 10px;
+               border-radius: 4px;
+               margin-bottom: 10px;
+               color: #fff;
+          }
+          .message.error {
+               background: #ff7681;
+          }
+          .message.success {
+               background: #d4edda;
+          }
+     </style>
+</head>
+<body>
+
+<div class="login-container">
+     <h1>Login to Your Account</h1>
+     <img src="resourcesandassets/images/loginicon.webp" alt="Login Icon">
+     <div id="message-container"></div>
+     <div class="input-wrapper">
+          <input type="email" id="usrmail" placeholder="Enter your email" required>
+     </div>
+     <div class="input-wrapper">
+          <input type="password" id="usrpass" placeholder="Enter your password" required>
+     </div>
+     <button id="sign_in">Login</button>
+</div>
+
+<script type="module" src="/js/login.js">
+
+</script>
+<script type="module" src="js/animator.js" >
+
+</script>
+<script>
+     const logInContainer = document.querySelector('.login-container');
+     window.addEventListener('load', () => {
+     fadeIn(logInContainer, 1000);
+});
+</script>
+</body>
+</html>

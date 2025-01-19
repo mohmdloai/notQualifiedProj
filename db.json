@@ -1,0 +1,357 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "admin",
+      "email": "admin@linux.com",
+      "password": "nopass",
+      "roleId": "1",
+      "is_deleted": false,
+      "phoneNumber": ""
+    },
+    {
+      "id": "2ec0",
+      "name": "Amre Hossam",
+      "email": "amre@linux.com",
+      "password": "123456",
+      "roleId": "2",
+      "is_deleted": false,
+      "phoneNumber": "010234564334"
+    },
+    {
+      "id": "20fd",
+      "name": "Hossam semry",
+      "email": "hossam@linux.com",
+      "password": "123456",
+      "roleId": "2",
+      "is_deleted": false,
+      "phoneNumber": "01233434330"
+    },
+    {
+      "id": "ce5a",
+      "name": "sayed",
+      "email": "sayed@gmail.com",
+      "password": "123456",
+      "is_deleted": false,
+      "roleId": "3",
+      "phoneNumber": ""
+    },
+    {
+      "id": "f6c4",
+      "name": "ali reda",
+      "email": "alireda@linux.com",
+      "password": "123456",
+      "is_deleted": true,
+      "roleId": "3",
+      "phoneNumber": "01078687668",
+      "role": {
+        "id": "3",
+        "name": "customer"
+      }
+    },
+    {
+      "id": "47ca",
+      "name": "Zeyad Ali",
+      "email": "zezo@linx.com",
+      "password": "123456",
+      "phoneNumber": "01089776654",
+      "is_deleted": true,
+      "roleId": "2",
+      "role": {
+        "id": "2",
+        "name": "seller"
+      }
+    },
+    {
+      "id": "a087",
+      "name": "useriti",
+      "email": "useriti@gmail.com",
+      "password": "123456",
+      "phoneNumber": "019876579356",
+      "is_deleted": true,
+      "roleId": "3",
+      "role": {
+        "id": "3",
+        "name": "customer"
+      }
+    },
+    {
+      "id": "1fec",
+      "name": "ahmed soliman",
+      "email": "ahmedsoliman@linux.com",
+      "password": "123456",
+      "phoneNumber": "01087578937",
+      "is_deleted": false,
+      "roleId": "2",
+      "role": {
+        "id": "2",
+        "name": "seller"
+      }
+    },
+    {
+      "id": "f46d",
+      "name": "yosef ahemd mohmed",
+      "email": "yosef@linux.com",
+      "password": "123456",
+      "phoneNumber": "019089793783",
+      "is_deleted": false,
+      "roleId": "3"
+    },
+    {
+      "id": "29aa",
+      "name": "abdo ali",
+      "email": "abdo@Linux.com",
+      "password": "1234567",
+      "phoneNumber": "01560100989",
+      "is_deleted": false,
+      "roleId": "2"
+    },
+    {
+      "id": "dee2",
+      "name": "shady ahmed",
+      "email": "shady@linux.com",
+      "password": "123456",
+      "phoneNumber": "010989738644",
+      "is_deleted": false,
+      "roleId": "3"
+    },
+    {
+      "id": "c4ae",
+      "name": "hosny elssayed",
+      "email": "hosny@linux.com",
+      "password": "123456",
+      "phoneNumber": "01298987543",
+      "is_deleted": false,
+      "roleId": "2"
+    },
+    {
+      "id": "1b29",
+      "name": "linus",
+      "email": "linux@linux.com",
+      "password": "123456",
+      "phoneNumber": "01098483738",
+      "is_deleted": true,
+      "roleId": "2",
+      "role": {
+        "id": "2",
+        "name": "seller"
+      }
+    },
+    {
+      "id": "4862",
+      "name": "Amr Elshiekh",
+      "email": "amr088@linux.com",
+      "password": "123456",
+      "phoneNumber": "01290895335",
+      "is_deleted": true,
+      "roleId": "2",
+      "role": {
+        "id": "2",
+        "name": "seller"
+      }
+    },
+    {
+      "id": "d575",
+      "name": "amgad ali",
+      "email": "amgad@gmail.com",
+      "password": "123456",
+      "phoneNumber": "01208778383",
+      "is_deleted": true,
+      "roleId": "3",
+      "role": {
+        "id": "3",
+        "name": "customer"
+      }
+    },
+    {
+      "id": "f672",
+      "name": "mahroos ali",
+      "email": "mahroos@linux.com",
+      "password": "123456",
+      "phoneNumber": "010234555343",
+      "is_deleted": true,
+      "roleId": "3",
+      "role": {
+        "id": "3",
+        "name": "customer"
+      }
+    },
+    {
+      "id": "c308",
+      "name": "karim tarek",
+      "email": "kemo@linux.com",
+      "password": "123456",
+      "phoneNumber": "01089786786",
+      "is_deleted": false,
+      "roleId": "2"
+    },
+    {
+      "id": "8a21",
+      "name": "Fetom mahmoud",
+      "email": "feto@linux.com",
+      "password": "123456",
+      "phoneNumber": "01578783787",
+      "is_deleted": false,
+      "roleId": "2"
+    }
+  ],
+  "products": [
+    {
+      "id": "7d74",
+      "image": "nothing",
+      "name": "latee",
+      "price": 77,
+      "category": "drink",
+      "userId": "",
+      "isApproved": false
+    },
+    {
+      "id": "c706",
+      "image": "none",
+      "name": "French Coffee",
+      "is_approved": "false",
+      "price": "89",
+      "category": "drink",
+      "userId": "2ec0",
+      "is_deleted": true
+    },
+    {
+      "id": "397b",
+      "image": "/resourcesandassets/images/cappuccino.jpeg",
+      "name": "Cappuccino",
+      "is_approved": "false",
+      "price": 33,
+      "category": "drink",
+      "userId": "2ec0",
+      "isApproved": true,
+      "is_deleted": true
+    },
+    {
+      "id": "5556",
+      "image": "/resourcesandassets/images/Vanilla Latte.png",
+      "name": "French Latee",
+      "is_approved": false,
+      "price": 70,
+      "category": "drink",
+      "userId": "2ec0",
+      "isApproved": true,
+      "is_deleted": true
+    },
+    {
+      "id": "a350",
+      "image": "resourcesandassets/images/france-coffee.png",
+      "name": "Tea",
+      "isApproved": true,
+      "price": 33,
+      "category": "drink",
+      "userId": "2ec0",
+      "is_deleted": true
+    },
+    {
+      "id": "b0c0",
+      "image": "nothing",
+      "name": "French Coffee",
+      "isApproved": false,
+      "price": "88",
+      "category": "drink",
+      "userId": "2ec0",
+      "is_deleted": true
+    },
+    {
+      "id": "1b97",
+      "image": "nothing",
+      "name": "برسيم فاخر ومن الاخر",
+      "isApproved": false,
+      "price": "233",
+      "category": "drink",
+      "userId": "1fec",
+      "is_deleted": false
+    },
+    {
+      "id": "d474",
+      "image": "none",
+      "name": "French Coffee",
+      "isApproved": false,
+      "price": 45,
+      "category": "drink",
+      "userId": "2ec0",
+      "is_deleted": true
+    },
+    {
+      "id": "a94d",
+      "image": "/resourcesandassets/images/Macchiato.jpg",
+      "name": "Macchiato",
+      "isApproved": true,
+      "price": 77,
+      "category": "drink",
+      "userId": "2ec0",
+      "is_deleted": true
+    },
+    {
+      "id": "6a7a",
+      "image": "/resourcesandassets/images/Macchiato.jpg",
+      "name": "Macchiato",
+      "isApproved": true,
+      "price": 78,
+      "category": "drink",
+      "userId": "20fd"
+    },
+    {
+      "id": "3759",
+      "image": "/resourcesandassets/images/Macchiato.jpg",
+      "name": "Macchiato",
+      "isApproved": true,
+      "price": 90,
+      "category": "drink",
+      "userId": "2ec0"
+    },
+    {
+      "id": "4da2",
+      "image": "/resourcesandassets/images/Macchiato.jpg",
+      "name": "Cappuccino",
+      "isApproved": true,
+      "price": 90,
+      "category": "drink",
+      "userId": "8a21"
+    },
+    {
+      "id": "6a8a",
+      "image": "/home/mhmd/Desktop/jsprojectinhand/resourcesandassets/images/Macchiato.jpg",
+      "name": "Cappuccino",
+      "isApproved": true,
+      "price": 90,
+      "category": "drink",
+      "userId": "8a21"
+    }
+  ],
+  "orders": [
+    {
+      "id": "2",
+      "userId": null,
+      "productId": "68",
+      "status": "new",
+      "is_deleted": true
+    },
+    {
+      "id": "3",
+      "userId": "12",
+      "productId": "7025",
+      "status": "new",
+      "is_deleted": false
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "admin"
+    },
+    {
+      "id": "2",
+      "name": "seller"
+    },
+    {
+      "id": "3",
+      "name": "customer"
+    }
+  ]
+}
